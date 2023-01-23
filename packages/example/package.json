@@ -1,0 +1,22 @@
+{
+  "name": "@workspace/example",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/workspace-example.cjs.js",
+  "module": "dist/workspace-example.esm.js",
+  "scripts": {
+    "build": "preconstruct build"
+  },
+  "peerDependencies": {
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  },
+  "dependencies": {}
+}
