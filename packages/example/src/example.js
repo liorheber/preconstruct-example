@@ -1,5 +1,6 @@
+import Example2 from "@workspace/example2";
 const Example = () => {
-    return <div>Hello World!</div>
+    return <Example2/>
 }
 
 export default Example;

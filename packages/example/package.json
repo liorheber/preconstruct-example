@@ -18,5 +18,7 @@
   "volta": {
     "extends": "../../package.json"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@workspace/example2": "*"
+  }
 }
